@@ -56,23 +56,23 @@ document.write("<p id='text'>Letter: " + nthLetter);
 document.write("<p id='text'>Time: " + hour + " Hour/s " + mins + " Minute/s<hr></p>");
 
 function whichIsland() {
-    if (num1 === num2) {
+    if (num1,num2 === largestNum) {
         document.write("<p id='text'>Hola! Soy Dora! Boots and I need help locating some islands. Can you see them? Where?</p>");
         document.write("<p id='text'>Oh, that's right! The islands behind me are considered the three least populated islands in the Philippines.</p>");
         document.write("<p id='text'>But currently, the most populated among the three islands are Lantawan Isla and Siklod Isla with " + largestNum + " inhabitants.</p>");
-    } else if (num1 === num3) {
+    } else if (num1,num3 === largestNum) {
         document.write("<p id='text'>Hola! Soy Dora! Boots and I need help locating some islands. Can you see them? Where?</p>");
         document.write("<p id='text'>Oh, that's right! The islands behind me are considered the three least populated islands in the Philippines.</p>");
         document.write("<p id='text'>But currently, the most populated among the three islands are Lantawan Isla and Hapao Isla with " + largestNum + " inhabitants.</p>");
-    } else if (num2 === num3) {
+    } else if (num2,num3 === largestNum) {
         document.write("<p id='text'>Hola! Soy Dora! Boots and I need help locating some islands. Can you see them? Where?</p>");
         document.write("<p id='text'>Oh, that's right! The islands behind me are considered the three least populated islands in the Philippines.</p>");
         document.write("<p id='text'>But currently, the most populated among the three islands are Siklod Isla and Hapao Isla with " + largestNum + " inhabitants.</p>");
-    } else if (num1 === num2 && num1 === num3) {
+    } else if (num1 === num2 && num1 === num3 && num2 === num3) {
         document.write("<p id='text'>Hola! Soy Dora! Boots and I need help locating some islands. Can you see them? Where?</p>");
         document.write("<p id='text'>Oh, that's right! The islands behind me are considered the three least populated islands in the Philippines.</p>");
         document.write("<p id='text'>Currently, the three islands have an equal population with " + largestNum + " inhabitants.</p>");
-	} else {
+    } else {
         document.write("<p id='text'>Hola! Soy Dora! Boots and I need help locating some islands. Can you see them? Where?</p>");
         document.write("<p id='text'>Oh, that's right! The islands behind me are considered the three least populated islands in the Philippines.</p>");
         document.write("<p id='text'>But currently, the most populated among the three islands is " + island + " with " + largestNum + " inhabitants.</p>");
