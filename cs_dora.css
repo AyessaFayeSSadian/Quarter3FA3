@@ -1,0 +1,42 @@
+body {
+  background-image: url("../Downloads/doraboots.jpg");
+}
+
+p{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	flex-direction: column;
+	color:white;
+	font-size: 18px;
+}
+
+h2{
+	
+	flex-direction: column;
+	font-size: 45px;
+	color: #592695;
+}
+
+h3{
+	flex-direction: column;
+	font-size: 32px;
+	color: #FC46AA;
+
+
+}
+
+h4{
+	justify-content: center;
+    align-items: center;
+	font-size: 26px;
+	background-color: #1338be;
+	color: white;
+	display: inline;
+	text-align: center;
+
+}
+
+
+
+
